@@ -1,0 +1,77 @@
+/* Animations */
+
+@keyframes fadein {
+	from {
+		opacity: 0.1;
+	}
+	to {
+		opacity: 0.9;
+	}
+}
+
+/* MAIN */
+.container {
+	margin-top: 4px;
+	margin-left: 2%;
+}
+.navbar {
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.padding-2 {
+	padding: 2%;
+}
+.spacer {
+	height: 4rem;
+}
+.blog-top {
+	border: solid;
+	border-radius: 25px;
+	width: 25%;
+	padding: 10px 10px;
+	box-shadow: 5px 10px #888888;
+}
+.aboutus {
+	border: solid;
+	border-radius: 25px;
+	box-shadow: 5px 10px #888888;
+	background-color: #fc9cff;
+	width: 90%;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.blog-child {
+	border: solid;
+	border-radius: 25px;
+	width: 25%;
+	padding: 10px 10px;
+	margin-left: 8px;
+	box-shadow: 5px 10px #888888;
+}
+.cflex {
+	display: flex;
+	padding-left: 20px;
+	width: 90%;
+}
+.cflex-child {
+	margin-top: 20px;
+	display: flex;
+	padding-left: 20px;
+	width: 90%;
+}
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  border-radius: 25px;
+  border: solid;
+  border-color: darkgrey;
+  height: 15%;
+}
