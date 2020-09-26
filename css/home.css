@@ -75,3 +75,10 @@ body::-webkit-scrollbar-thumb {
   border-color: darkgrey;
   height: 15%;
 }
+body::-webkit-scrollbar-thumb:focus {
+  background-color: #828282;
+  border-radius: 25px;
+  border: solid;
+  border-color: #828282;
+  height: 15%;
+}
