@@ -6,7 +6,7 @@
 	function frame() {
 		if(loading == 100) {
 			clearInterval(id) 
-			window.open('home', "_self");
+			window.open('https://codestart.ml/home/', "_self");
 		} else {
 			loading = loading + 1;
 			if(loading == 90) {
