@@ -14,17 +14,30 @@
 }
 
 /* MAIN */
+.font-ubuntu-xl {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	color: #101010;
+}
 .font-ubuntu {
 	font-family: 'Ubuntu', sans-serif;
+	margin-left: 1%;
 }
 .container {
 	margin-top: 4px;
 	margin-left: 2%;
+	display: block;
+}
+.helptip {
+	margin-left 2%;
+	display: block;
 }
 .navbar {
 	-webkit-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+	border-bottom: solid;
+	box-shadow: 5px 5px #7d7d7d;
 }
 .padding-2 {
 	padding: 2%;
@@ -40,6 +53,15 @@
 	box-shadow: 5px 10px #888888;
 }
 .aboutus {
+	border: solid;
+	border-radius: 25px;
+	box-shadow: 5px 10px #888888;
+	background-color: #fc9cff;
+	width: 90%;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.aboutus-w {
 	border: solid;
 	border-radius: 25px;
 	box-shadow: 5px 10px #888888;
@@ -90,3 +112,9 @@ body::-webkit-scrollbar-thumb:focus {
 .navbar-section {
 	margin: 15px 0px 15px 0px;
 }
+.settlr {
+	margin-left: 2%;
+}
+
+/* LOAD */
+
