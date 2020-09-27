@@ -118,3 +118,20 @@ body::-webkit-scrollbar-thumb:focus {
 
 /* LOAD */
 
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		
+	}
+	to {
+		opacity: 1;
+	}
+}
+.fadeOut {
+	animation-name: fadeOut;
+	animation-duration: 0.8s;
+}
+.fadeIn {
+	animation-name: fadeIn;
+	animation-duration: 0.8s;
+}
